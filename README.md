@@ -7,7 +7,13 @@ Works in Zombie Survival for humans, zombies, props you name it.
 
 # Example :
 
-![Alt text](http://images.akamai.steamusercontent.com/ugc/577849023630942742/5CD9AFB6F6C0EF79EC0C302E6DBAE8AF859DE9F6/ "Mapvoting example")
+![Alt text](http://images.akamai.steamusercontent.com/ugc/577849023630942742/5CD9AFB6F6C0EF79EC0C302E6DBAE8AF859DE9F6/ "example")
+
+# Install :
+
+Install the addon to the `"/garrysmod/addons/"` folder.
+
+The path layout should look like this : `"/garrysmod/addons/hitnumbers/lua/autorun/"`
 
 For server admins and/or developers
 ===================================
