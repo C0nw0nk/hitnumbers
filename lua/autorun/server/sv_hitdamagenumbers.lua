@@ -83,8 +83,8 @@ end )
 -- 5 = "Critical <dmg>"
 -- 6 = "Crit!" AND "<dmg>"
 -- 7 = "Critical!" AND "<dmg>"
-CreateConVar( "sv_hitnums_critmode", 7 )
-SetGlobalInt( "HDN_CritMode", 7 )
+CreateConVar( "sv_hitnums_critmode", 0 )
+SetGlobalInt( "HDN_CritMode", 0 )
 cvars.AddChangeCallback( "sv_hitnums_critmode", function()
 	SetGlobalInt("HDN_CritMode", GetConVarNumber("sv_hitnums_critmode"))
 end )
